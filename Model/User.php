@@ -737,7 +737,7 @@ abstract class User implements UserInterface, GroupableInterface
      * @param array $roles
      * @return User
      */
-    public function setRoles(array $roles)
+    public function setRoles($roles)
     {
         $this->roles = array();
 

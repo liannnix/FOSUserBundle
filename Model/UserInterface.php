@@ -186,7 +186,7 @@ interface UserInterface extends AdvancedUserInterface, \Serializable
      *
      * @param array $roles
      */
-    function setRoles(array $roles);
+    function setRoles($roles);
 
     /**
      * Adds a role to the user.
